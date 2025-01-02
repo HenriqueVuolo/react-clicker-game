@@ -1,50 +1,39 @@
-# React + TypeScript + Vite
+<h1 align="center">ASCEND.IO - A REACT CLICKER GAME</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## :book: About
 
-Currently, two official plugins are available:
+Ascend.io is a simple and addictive game where the goal is to earn points by clicking a button. However, there's a catch: with each click, there's also a chance to lose everything! You can purchase items that increase the points per click but also raise the risk of losing points, adding a strategic element to the game.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This game was built using Vite + React, leveraging the React Context API to manage the game state. This approach reduces the need for multiple useState hooks scattered throughout the application and eliminates the need for external state management libraries like Zustand, making the codebase simpler and more maintainable.
 
-## Expanding the ESLint configuration
+The game's design is intentionally simple, as the primary focus was to explore development using these modern web technologies. There are still several features I plan to implement, such as balancing the game and its items, visual feedback for points (showing how much is increasing or decreasing), new items with unique mechanics, among other improvements.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## :rocket: Techs
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- Vite
+- React
+- TypeScript
+- TailwindCSS
+- React Context API
+
+## :gear: Setup
+- Clone the repository:
+```
+git clone https://github.com/HenriqueVuolo/react-clicker-game.git
+cd react-clicker-game
+```
+- Install dependencies:
+```
+npm install
+```
+- Run:
+```
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<br><br>
+<p align="center">
+  <a href="https://www.linkedin.com/in/henrique-vuolo-santana">
+  <img src="https://img.shields.io/badge/LinkedIn-Henrique%20Vuolo-blue?logo=linkedin"/></a>
+</p>
