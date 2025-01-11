@@ -8,6 +8,10 @@ This game was built using Vite + React, leveraging the React Context API to mana
 
 The game's design is intentionally simple, as the primary focus was to explore development using these modern web technologies. There are still several features I plan to implement, such as balancing the game and its items, visual feedback for points (showing how much is increasing or decreasing), new items with unique mechanics, among other improvements.
 
+- [Demo](https://react-clicker-game-vuolo.vercel.app/) 🎮
+
+
+<img src="https://github.com/user-attachments/assets/6d896d01-cff1-4c48-88f6-d1c1ae5c30e4" />
 
 ## :rocket: Techs
 
